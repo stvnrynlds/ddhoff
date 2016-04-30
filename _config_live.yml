@@ -1,0 +1,4 @@
+# http://stackoverflow.com/a/27400343/2658996
+# After dev, to finally test live:
+# jekyll build --config _config.yml,_config_live.yml --watch
+url: 'http://cogsci.uci.edu/~ddhoff'

@@ -1,0 +1,6 @@
+markdown: redcarpet
+highlighter: false
+source: _dev
+destination: _site
+include: ['.htaccess']
+url: ''

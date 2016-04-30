@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include _meta.html %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/style.css" type="text/css" media="screen" charset="utf-8">
+	<title>Donald D. Hoffman | University of California, Irvine</title>
+    {% include _typekit.html %}
+    {% include _analytics.html %}
+</head>
+<body>
+	<section>
+		<header class="site-header">
+			<div class="header-ribbon">
+				<a href="http://uci.edu/" class="univ-link">U<span class="hide-mobile">niversity of </span>C<span class="hide-mobile">alifornia</span>, Irvine</a>
+			</div>
+			<div class="header-photo">
+				<img src="{{ site.url }}/assets/img/hoffman-portrait-@2x.jpg" width="150" height="200" alt="Photo of Donald D. Hoffman" class="header-photo-img" />
+			</div>
+			<div class="header-titles">
+				<h1 class="site-title"><a href="{{ site.url }}/">Donald D. Hoffman</a></h1>
+				<p class="site-subtitle">
+				Professor of Cognitive Science, <span class="no-break">University of California, Irvine</span><br>
+					<a href="mailto:ddhoff@uci.edu">ddhoff@uci.edu</a>
+				</p>
+			</div>
+		</header>
+	</section>
+	<section class="content">
+	{{ content }}
+	</section>
+	<footer id="footer">
+		<p>&copy; University of California, Irvine &amp; Donald&nbsp;D.&nbsp;Hoffman</p>
+	</footer>
+</div>
+</body>
+</html>
